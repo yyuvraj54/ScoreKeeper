@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+    scrollbar-gutter: stable both-edges;
+}
+.Main{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 20%;
+    margin: 5px;
+    margin-top: 50px;
+    min-width: 356px;
+    background-color: white;
+    border-bottom-left-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imageBox{
+    width: 100%;
+    
+}
+.imageBox img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.Header{
+    align-items: center;
+    color: #363636;
+    display: flex;
+    flex-grow: 1;
+    font-weight: 700;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    /* padding: 12px 16px;
+    background-color: azure; */
+
+}
+.actionBox{
+    padding: 24px;
+}
+
+.scores {
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.rule p{
+    color: #4a4a4a;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+
+}
+.paying{
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+
+    display: flex;
+    align-items: center;
+}
+.SelectionDiv{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.SelectionDiv select{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.footerBox{
+    width: 100%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+
+}
+.buton{
+    height: 50px;
+    color: white;
+    width:100%;
+    border-right: 1px solid #ededed;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 1.1rem;
+    
+}
+.buton:nth-of-type(1){
+    background-color: #00C4A7;
+}
+.buton:nth-of-type(2){
+    background-color: #2793DA;
+}
+.buton:nth-of-type(3){
+    background-color: #F03A5F;
+}
